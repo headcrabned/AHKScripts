@@ -80,5 +80,11 @@ $^F12::Send {F12}
 
 		;Forward Mouse + Scroll Down: Tab Left
         Xbutton2 & WheelDown::Send ^+{Tab}
+		
+		;Razer wheel left = F13
+        F13::Send ^+{Tab}
+
+		;Razer wheel Right = F14
+        F14::Send ^{Tab}
 
 #IfWinActive
