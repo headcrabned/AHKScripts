@@ -63,7 +63,8 @@ $^F11::Send {F11}
 $F12::Send {Volume_Up 1}
 $^F12::Send {F12}
 
-
+; Epomaker GK96 has a menu key, to the right of spacebar, change that back to ctrl
+AppsKey::Ctrl
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; Firefox-specific tab control via mouse
