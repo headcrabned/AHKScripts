@@ -70,8 +70,8 @@ AppsKey::Ctrl
 ; Firefox-specific tab control via mouse
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 #IfWinActive ahk_class MozillaWindowClass
-		;Forward Mouse + Left click: close tab 
-        Xbutton2 & LButton::Send ^w
+		;Forward Mouse : close tab 
+        Xbutton2::Send ^w
 
 		;Forward Mouse + Right click: Re-open closed tab
         Xbutton2 & RButton::Send ^+t
