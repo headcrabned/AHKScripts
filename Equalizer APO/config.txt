@@ -1,0 +1,9 @@
+Device:  Speakers Realtek(R) Audio {a3f077e3-3490-4a17-8e16-fb3e6c9b7638}
+Copy: LFE=0.5*L+0.5*R
+Channel: LFE
+Filter: ON LP Fc 150 Hz
+Channel: L R
+# Preamp: -17.4 dB
+Include: Micca_MB42x_MK3.txt
+Device:  Headset HyperX Cloud Flight S Game {101f64cd-e454-426b-a8f7-5aa591b8a234}
+Include: HyperX Cloud Flight S GraphicEQ.txt
