@@ -4,11 +4,12 @@ Stage: pre-mix
 If: inputChannelCount == 2
 Copy: LFE=0.5*L+0.5*R
 Channel: LFE
-Preamp: -7 dB
-Filter: ON LP Fc 100 Hz
+Preamp: -14 dB
+Filter: ON LP Fc 120 Hz
 Endif:
 Channel: L R
-# Preamp: -17.4 dB
+#Preamp: -17.4 dB
 # Include: Micca_MB42x_MK3.txt
+Filter: ON HP Fc 100 Hz
 Device:  Headset HyperX Cloud Flight S Game {101f64cd-e454-426b-a8f7-5aa591b8a234}
 Include: HyperX Cloud Flight S GraphicEQ.txt
